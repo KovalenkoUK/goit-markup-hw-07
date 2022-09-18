@@ -1,0 +1,108 @@
+.header-info {
+    display: block;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.button-list {
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+    position: relative;
+
+}
+
+.tel-list {
+    align-items: center;
+    margin-left: auto;
+    gap: 50px;
+}
+
+.web-study {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+&:hover,
+&:focus {
+    color: #2196F3;
+}
+}
+
+
+
+.studio-ft {
+    color: #fff;
+}
+
+
+
+.tel {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    fill: var(--neader-footer-textcolor);
+    fill: currentColor;
+    display: flex;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: #2196F3;
+    fill: var(--logo-color);
+
+}
+}
+
+.tel-list-item {}
+
+.tel_list_envelope {
+
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+
+}
+
+.tel_list_smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+
+}
+
+.current {
+    color: var(--logo-color);
+    position: relative;
+&::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+}

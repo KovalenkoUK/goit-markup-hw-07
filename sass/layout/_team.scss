@@ -1,0 +1,84 @@
+.team-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+
+}
+
+.team-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+
+}
+
+.tem-total {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.img-title {
+    justify-content: space-between;
+
+
+}
+
+.team {
+    background: #F5F4FA;
+
+}
+
+.team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.team-list {
+    justify-content: space-between;
+
+}
+
+.team_total_contacts {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+
+
+}
+
+.team-total-flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 16px;
+}
+
+.social_list_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #AFB1B8;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            background-color: #2196F3;
+            color: #FFFFFF;
+        }
+
+}
+
